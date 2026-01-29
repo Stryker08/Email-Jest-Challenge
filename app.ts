@@ -17,5 +17,6 @@ export async function normalizeEmail(rawEmail: string): Promise<string> {
     throw new InvalidEmailError(rawEmail);
   }
 
+
   return email;
 }
